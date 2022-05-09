@@ -20,3 +20,13 @@ times.addEventListener('click',function(){
 
 
 })
+var options = {
+  strings: ["An aspiring Computer Science Engineer who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering, data structure, algorithm design and analysis and cloud computing.My passion lies in solving real world problems with tailored data and algorithms and communicating complex ideas in a simpler way. I emphasize on arriving to the solution at the earliest possible."],
+  typeSpeed: 100,
+  backSpeed:100,
+};
+var typed = new Typed('.typing', options);
+typed();
+
+
+

@@ -354,7 +354,13 @@ section.work .card-wrapper .card:hover .overlay {
   border-radius: 0.5rem;
   font-size: 1.6rem;
   cursor: pointer;
-  transform: scale(1.25);
+  transform: scale(1);
+}
+section.work .card-wrapper .card .overlay span{
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 section.work .card-wrapper .card .overlay a {
   color: var(--secondary);
@@ -383,6 +389,10 @@ section.contact .card-wrapper .card h2 {
   font-weight: 400;
   margin-bottom: 0.5rem;
   justify-content: center;
+}
+section.contact .card-wrapper .card h2 a{
+  text-decoration: none;
+  color: var(--secondary);
 }
 section.contact .card-wrapper .card h6 {
   font-size: 1rem;
